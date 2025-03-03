@@ -1,0 +1,429 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "EMPLOYEE.APP",
+    "version": "1.0"
+  },
+  "paths": {
+    "/getVoucherType": {
+      "get": {
+        "tags": [
+          "AccountAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/getChartAcc": {
+      "get": {
+        "tags": [
+          "AccountAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/getAccountlist": {
+      "get": {
+        "tags": [
+          "AccountAPI"
+        ],
+        "parameters": [
+          {
+            "name": "glid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SaveVoucherEntry": {
+      "post": {
+        "tags": [
+          "AccountAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VoucherHeadATT"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SaveVoucherEntryAsync": {
+      "post": {
+        "tags": [
+          "AccountAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VoucherHeadATT"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/getVoucherdetailslistById": {
+      "get": {
+        "tags": [
+          "AccountAPI"
+        ],
+        "parameters": [
+          {
+            "name": "VoucherNo",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/getVoucherNumberById": {
+      "get": {
+        "tags": [
+          "AccountAPI"
+        ],
+        "parameters": [
+          {
+            "name": "VoucherNo",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/getFieldofstudylist": {
+      "get": {
+        "tags": [
+          "EmpAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SaveFieldSubjects": {
+      "post": {
+        "tags": [
+          "EmpAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FieldOfStudyATT"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/getSubjectbyCourseId": {
+      "get": {
+        "tags": [
+          "EmpAPI"
+        ],
+        "parameters": [
+          {
+            "name": "courseid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SaveStudentdetails": {
+      "post": {
+        "tags": [
+          "EmpAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Employee"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/getStudentInfoByStudentId": {
+      "get": {
+        "tags": [
+          "EmpAPI"
+        ],
+        "parameters": [
+          {
+            "name": "sid",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/updateStudentdetails": {
+      "post": {
+        "tags": [
+          "EmpAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Employee"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Employee": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "tel": {
+            "type": "string",
+            "nullable": true
+          },
+          "sub": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Subject"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FieldOfStudyATT": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "fosubList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FieldOfSubjectATT"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FieldOfSubjectATT": {
+        "type": "object",
+        "properties": {
+          "fId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sname": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Subject": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "field": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sub": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "field_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "sub_name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VoucherDetailATT": {
+        "type": "object",
+        "properties": {
+          "voucherNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "glId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "glAccNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "drAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "crAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VoucherHeadATT": {
+        "type": "object",
+        "properties": {
+          "voucherNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "engDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "nepDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "voucherType": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "voucherdetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VoucherDetailATT"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

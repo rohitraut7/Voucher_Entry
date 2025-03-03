@@ -1,0 +1,270 @@
+[
+  {
+    "ContainingType": "EMPLOYEE.APP.API.AccountAPI",
+    "Method": "getAccountlist",
+    "RelativePath": "getAccountlist",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "glid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.AccountAPI",
+    "Method": "getChartAcc",
+    "RelativePath": "getChartAcc",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.EmpAPI",
+    "Method": "getFieldOfStudy",
+    "RelativePath": "getFieldofstudylist",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.EmpAPI",
+    "Method": "getStudentInfoByStudentId",
+    "RelativePath": "getStudentInfoByStudentId",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.EmpAPI",
+    "Method": "getSubjectbyCoureseid",
+    "RelativePath": "getSubjectbyCourseId",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.AccountAPI",
+    "Method": "getVoucherdetailslistById",
+    "RelativePath": "getVoucherdetailslistById",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VoucherNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.AccountAPI",
+    "Method": "getVoucherNumberById",
+    "RelativePath": "getVoucherNumberById",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VoucherNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.AccountAPI",
+    "Method": "getVoucherType",
+    "RelativePath": "getVoucherType",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.EmpAPI",
+    "Method": "SaveFieldSubjects",
+    "RelativePath": "SaveFieldSubjects",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fos",
+        "Type": "EMPLOYEE.APP.FieldOfStudyATT",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.EmpAPI",
+    "Method": "SaveStudentdetails",
+    "RelativePath": "SaveStudentdetails",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp",
+        "Type": "EMPLOYEE.APP.ATTRIBUTES.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.AccountAPI",
+    "Method": "SaveVoucherEntry",
+    "RelativePath": "SaveVoucherEntry",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voucherinfo",
+        "Type": "EMPLOYEE.APP.ACCOUNT.VoucherHeadATT",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.AccountAPI",
+    "Method": "SaveVoucherEntryAsync",
+    "RelativePath": "SaveVoucherEntryAsync",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voucherinfo",
+        "Type": "EMPLOYEE.APP.ACCOUNT.VoucherHeadATT",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EMPLOYEE.APP.API.EmpAPI",
+    "Method": "UpdateStudentdetails",
+    "RelativePath": "updateStudentdetails",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp",
+        "Type": "EMPLOYEE.APP.ATTRIBUTES.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
