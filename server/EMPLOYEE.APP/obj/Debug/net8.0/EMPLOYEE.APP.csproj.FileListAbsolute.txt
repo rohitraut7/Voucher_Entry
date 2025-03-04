@@ -38,3 +38,44 @@ D:\working\C# Course\TEST-PROJECT\EMPLOYEE.APP\obj\Debug\net8.0\refint\EMPLOYEE.
 D:\working\C# Course\TEST-PROJECT\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.pdb
 D:\working\C# Course\TEST-PROJECT\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.genruntimeconfig.cache
 D:\working\C# Course\TEST-PROJECT\EMPLOYEE.APP\obj\Debug\net8.0\ref\EMPLOYEE.APP.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\appsettings.Development.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\appsettings.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\EMPLOYEE.APP.staticwebassets.endpoints.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\EMPLOYEE.APP.exe
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\EMPLOYEE.APP.deps.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\EMPLOYEE.APP.runtimeconfig.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\EMPLOYEE.APP.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\EMPLOYEE.APP.pdb
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Npgsql.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.csproj.AssemblyReference.cache
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.GeneratedMSBuildEditorConfig.editorconfig
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.AssemblyInfoInputs.cache
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.AssemblyInfo.cs
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.csproj.CoreCompileInputs.cache
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.MvcApplicationPartsAssemblyInfo.cs
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.MvcApplicationPartsAssemblyInfo.cache
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.sourcelink.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\scopedcss\bundle\EMPLOYEE.APP.styles.css
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets.build.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets.development.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets\msbuild.EMPLOYEE.APP.Microsoft.AspNetCore.StaticWebAssets.props
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets\msbuild.EMPLOYEE.APP.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets\msbuild.build.EMPLOYEE.APP.props
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EMPLOYEE.APP.props
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EMPLOYEE.APP.props
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets.pack.json
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.EC6EC021.Up2Date
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\refint\EMPLOYEE.APP.dll
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.pdb
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\EMPLOYEE.APP.genruntimeconfig.cache
+D:\working\Next\Voucher_Entry\server\EMPLOYEE.APP\obj\Debug\net8.0\ref\EMPLOYEE.APP.dll

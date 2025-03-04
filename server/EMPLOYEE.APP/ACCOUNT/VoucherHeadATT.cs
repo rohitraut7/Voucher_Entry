@@ -2,7 +2,6 @@
 {
     public class VoucherHeadATT
     {
-        //voucher_no eng_date    nep_date voucher_type    description
 
         public string? VoucherNo { get; set; }
         public string? EngDate { get; set; }

@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\working\\C# Course\\TEST-PROJECT\\",
+  "WorkspaceRootPath": "D:\\working\\Next\\Voucher_Entry\\server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\c# course\\test-project\\employee.app\\api\\accountapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\next\\voucher_entry\\server\\employee.app\\api\\accountapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|solutionrelative:employee.app\\api\\accountapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\c# course\\test-project\\employee.app\\api\\empapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\next\\voucher_entry\\server\\employee.app\\api\\empapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|solutionrelative:employee.app\\api\\empapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\c# course\\test-project\\employee.app\\account\\voucherdetailatt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\next\\voucher_entry\\server\\employee.app\\account\\voucherdetailatt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|solutionrelative:employee.app\\account\\voucherdetailatt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\c# course\\test-project\\employee.app\\account\\voucherheadatt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|d:\\working\\next\\voucher_entry\\server\\employee.app\\account\\voucherheadatt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{737645A6-E0EE-4957-AEC8-C1B2673E0560}|EMPLOYEE.APP\\EMPLOYEE.APP.csproj|solutionrelative:employee.app\\account\\voucherheadatt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "VoucherHeadATT.cs",
-              "DocumentMoniker": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\ACCOUNT\\VoucherHeadATT.cs",
+              "DocumentMoniker": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\ACCOUNT\\VoucherHeadATT.cs",
               "RelativeDocumentMoniker": "EMPLOYEE.APP\\ACCOUNT\\VoucherHeadATT.cs",
-              "ToolTip": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\ACCOUNT\\VoucherHeadATT.cs",
+              "ToolTip": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\ACCOUNT\\VoucherHeadATT.cs",
               "RelativeToolTip": "EMPLOYEE.APP\\ACCOUNT\\VoucherHeadATT.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "VoucherDetailATT.cs",
-              "DocumentMoniker": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\ACCOUNT\\VoucherDetailATT.cs",
+              "DocumentMoniker": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\ACCOUNT\\VoucherDetailATT.cs",
               "RelativeDocumentMoniker": "EMPLOYEE.APP\\ACCOUNT\\VoucherDetailATT.cs",
-              "ToolTip": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\ACCOUNT\\VoucherDetailATT.cs",
+              "ToolTip": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\ACCOUNT\\VoucherDetailATT.cs",
               "RelativeToolTip": "EMPLOYEE.APP\\ACCOUNT\\VoucherDetailATT.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AccountAPI.cs",
-              "DocumentMoniker": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\API\\AccountAPI.cs",
+              "DocumentMoniker": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\API\\AccountAPI.cs",
               "RelativeDocumentMoniker": "EMPLOYEE.APP\\API\\AccountAPI.cs",
-              "ToolTip": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\API\\AccountAPI.cs*",
-              "RelativeToolTip": "EMPLOYEE.APP\\API\\AccountAPI.cs*",
-              "ViewState": "AgIAAEsBAAAAAAAAAAAwwGMBAAAgAAAAAAAAAA==",
+              "ToolTip": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\API\\AccountAPI.cs",
+              "RelativeToolTip": "EMPLOYEE.APP\\API\\AccountAPI.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAswD0BAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T06:49:39.168Z",
               "EditorCaption": ""
@@ -69,11 +69,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EmpAPI.cs",
-              "DocumentMoniker": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\API\\EmpAPI.cs",
+              "DocumentMoniker": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\API\\EmpAPI.cs",
               "RelativeDocumentMoniker": "EMPLOYEE.APP\\API\\EmpAPI.cs",
-              "ToolTip": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\API\\EmpAPI.cs",
+              "ToolTip": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\API\\EmpAPI.cs",
               "RelativeToolTip": "EMPLOYEE.APP\\API\\EmpAPI.cs",
-              "ViewState": "AgIAAD4CAAAAAAAAAAAkwDoCAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAKQBAAAAAAAAAAAYwDoCAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T07:04:22.698Z"
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj": {}
+    "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj": {}
   },
   "projects": {
-    "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj": {
+    "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj",
+        "projectUniqueName": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj",
         "projectName": "EMPLOYEE.APP",
-        "projectPath": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj",
+        "projectPath": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\EMPLOYEE.APP.csproj",
         "packagesPath": "C:\\Users\\ROHIT\\.nuget\\packages\\",
-        "outputPath": "D:\\working\\C# Course\\TEST-PROJECT\\EMPLOYEE.APP\\obj\\",
+        "outputPath": "D:\\working\\Next\\Voucher_Entry\\server\\EMPLOYEE.APP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -79,6 +79,13 @@ const Form = () => {
         }
     };
 
+    const hanldeAdd = (e) => {
+        console.log('event', e);
+        if (e.key == "Enter") {
+            handleAddEntry();
+        }
+    }
+
     return (
         <Box sx={{ padding: 1, maxWidth: 1200, margin: 6 }}>
 
@@ -176,7 +183,7 @@ const Form = () => {
                     </TableHead>
 
 
-                    <TableHead sx={{  fontWeight: 'bold' }}>    
+                    <TableHead sx={{ fontWeight: 'bold' }}>
                         <TableRow>
                             <TableCell>{formdata?.sn}</TableCell>
                             <TableCell>{formdata?.glcode}</TableCell>
@@ -225,11 +232,11 @@ const Form = () => {
                                 >
                                     <div>
                                         <TextField
-                                             type="text" 
-                                             id="small-input"
-                                             name='acdescription'
-                                             onChange={handleOnChange}
-                                             value={formdata?.acdescription}
+                                            type="text"
+                                            id="small-input"
+                                            name='acdescription'
+                                            onChange={handleOnChange}
+                                            value={formdata?.acdescription}
                                         />
                                     </div>
                                 </Box>
@@ -262,6 +269,7 @@ const Form = () => {
                                     <div>
                                         <TextField
                                             name='credit'
+                                            onKeyDown={hanldeAdd}
                                             onChange={handleOnChange}
                                             value={formdata?.credit}
                                         />
@@ -272,7 +280,7 @@ const Form = () => {
                             <TableCell>
                                 <Box sx={{ '& button': { m: 1 } }}>
                                     <div>
-                                        <Button variant="contained" size="small"  onClick={handleAddEntry}>
+                                        <Button variant="contained" size="small" onClick={handleAddEntry}>
                                             Add
                                         </Button>
                                     </div>
@@ -312,7 +320,7 @@ const Form = () => {
 
                 </Table>
             </TableContainer>
-                    
+
             <TextareaAutosize
                 minRows={2}
                 placeholder="Enter a description..."

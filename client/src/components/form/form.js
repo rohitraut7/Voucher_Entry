@@ -28,7 +28,7 @@ const Form = () => {
     const [glList,setGlList]= useState([]);
     const [acclist,setAcclist] = useState([]);
 
-    const getVouchartype = async () => {
+    const getvouchartype = async () => {
         try {
             const response = await axios.get("http://localhost:5182/getVoucherType");
             setVourcharTypeList(response.data);
@@ -36,11 +36,11 @@ const Form = () => {
             console.error("Error fetching voucher type list:", error.response?.data || error.message);
         }
     };
-
+    
     useEffect(() => {
-        getVouchartype();
+        getvouchartype();
     }, []);
-
+    
 
     const getGlheads = async () => {
         try{
@@ -192,8 +192,8 @@ const Form = () => {
        if(e.key=="Enter"){
         handleAddEntry();
        }
-       
     }
+       
 
     const handleSave = async () => {
 
